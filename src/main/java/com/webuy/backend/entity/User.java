@@ -1,6 +1,7 @@
 package com.webuy.backend.entity;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "User")
@@ -13,8 +14,15 @@ public class User {
     private final String email;
 
     @OneToMany
-    private Annonce annonce;
+    private List<Annonce> annonce;
 
+    public List<Annonce> getAnnonce() {
+        return annonce;
+    }
+
+    public void setAnnonce(List<Annonce> annonce) {
+        this.annonce = annonce;
+    }
 
     public User(String name, String email) {
         this.name = name;
