@@ -1,0 +1,202 @@
+{
+	"info": {
+		"_postman_id": "5363cc63-d634-48b1-bd9e-1a875ac86362",
+		"name": "ProjetWeb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Annonces",
+			"item": [
+				{
+					"name": "CreateAnnonces",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[{\r\n  \"titre\": \"Mountaineer\",\r\n  \"description\": \"Visionary background attitude\",\r\n  \"prix\": \"€237,80\"\r\n}, {\r\n  \"titre\": \"CR-V\",\r\n  \"description\": \"Cross-platform human-resource contingency\",\r\n  \"prix\": \"€493,99\"\r\n}, {\r\n  \"titre\": \"Continental\",\r\n  \"description\": \"Synchronised zero administration product\",\r\n  \"prix\": \"€495,88\"\r\n}, {\r\n  \"titre\": \"Cougar\",\r\n  \"description\": \"De-engineered even-keeled hardware\",\r\n  \"prix\": \"€132,08\"\r\n}, {\r\n  \"titre\": \"Town & Country\",\r\n  \"description\": \"Front-line heuristic functionalities\",\r\n  \"prix\": \"€210,68\"\r\n}, {\r\n  \"titre\": \"Sentra\",\r\n  \"description\": \"Fully-configurable executive knowledge user\",\r\n  \"prix\": \"€457,35\"\r\n}, {\r\n  \"titre\": \"Firebird\",\r\n  \"description\": \"Phased stable open architecture\",\r\n  \"prix\": \"€458,69\"\r\n}, {\r\n  \"titre\": \"Spyder\",\r\n  \"description\": \"Streamlined needs-based migration\",\r\n  \"prix\": \"€18,63\"\r\n}, {\r\n  \"titre\": \"Liberty\",\r\n  \"description\": \"Extended fresh-thinking service-desk\",\r\n  \"prix\": \"€342,81\"\r\n}, {\r\n  \"titre\": \"Navigator L\",\r\n  \"description\": \"Team-oriented attitude-oriented synergy\",\r\n  \"prix\": \"€252,06\"\r\n}, {\r\n  \"titre\": \"Montero\",\r\n  \"description\": \"Right-sized next generation intranet\",\r\n  \"prix\": \"€48,10\"\r\n}, {\r\n  \"titre\": \"Golf\",\r\n  \"description\": \"Right-sized interactive local area network\",\r\n  \"prix\": \"€205,09\"\r\n}, {\r\n  \"titre\": \"Tiburon\",\r\n  \"description\": \"Customer-focused impactful data-warehouse\",\r\n  \"prix\": \"€223,33\"\r\n}, {\r\n  \"titre\": \"Talon\",\r\n  \"description\": \"Organized optimal ability\",\r\n  \"prix\": \"€183,05\"\r\n}, {\r\n  \"titre\": \"Ram 1500\",\r\n  \"description\": \"Monitored regional help-desk\",\r\n  \"prix\": \"€494,02\"\r\n}, {\r\n  \"titre\": \"Vandura G1500\",\r\n  \"description\": \"Mandatory mission-critical matrix\",\r\n  \"prix\": \"€379,35\"\r\n}, {\r\n  \"titre\": \"Monterey\",\r\n  \"description\": \"Business-focused scalable throughput\",\r\n  \"prix\": \"€35,09\"\r\n}, {\r\n  \"titre\": \"Land Cruiser\",\r\n  \"description\": \"Open-source multimedia framework\",\r\n  \"prix\": \"€131,43\"\r\n}, {\r\n  \"titre\": \"Wrangler\",\r\n  \"description\": \"Optional modular Graphical User Interface\",\r\n  \"prix\": \"€251,97\"\r\n}, {\r\n  \"titre\": \"Mazda6\",\r\n  \"description\": \"Balanced next generation strategy\",\r\n  \"prix\": \"€328,26\"\r\n}, {\r\n  \"titre\": \"6 Series\",\r\n  \"description\": \"Synergistic maximized emulation\",\r\n  \"prix\": \"€132,65\"\r\n}, {\r\n  \"titre\": \"Prizm\",\r\n  \"description\": \"Programmable analyzing support\",\r\n  \"prix\": \"€181,27\"\r\n}, {\r\n  \"titre\": \"CR-V\",\r\n  \"description\": \"Persistent asymmetric access\",\r\n  \"prix\": \"€105,74\"\r\n}, {\r\n  \"titre\": \"323\",\r\n  \"description\": \"Re-engineered asynchronous initiative\",\r\n  \"prix\": \"€300,71\"\r\n}, {\r\n  \"titre\": \"Taurus\",\r\n  \"description\": \"Synchronised optimal project\",\r\n  \"prix\": \"€230,96\"\r\n}, {\r\n  \"titre\": \"300SE\",\r\n  \"description\": \"Enterprise-wide incremental structure\",\r\n  \"prix\": \"€12,40\"\r\n}, {\r\n  \"titre\": \"CL\",\r\n  \"description\": \"Diverse leading edge pricing structure\",\r\n  \"prix\": \"€411,99\"\r\n}, {\r\n  \"titre\": \"S80\",\r\n  \"description\": \"Upgradable empowering capacity\",\r\n  \"prix\": \"€301,24\"\r\n}, {\r\n  \"titre\": \"Sienna\",\r\n  \"description\": \"Enterprise-wide coherent model\",\r\n  \"prix\": \"€271,15\"\r\n}, {\r\n  \"titre\": \"Outlander\",\r\n  \"description\": \"Organic heuristic encoding\",\r\n  \"prix\": \"€239,65\"\r\n}, {\r\n  \"titre\": \"Yukon XL 1500\",\r\n  \"description\": \"Digitized disintermediate circuit\",\r\n  \"prix\": \"€157,58\"\r\n}, {\r\n  \"titre\": \"Bronco II\",\r\n  \"description\": \"Grass-roots regional process improvement\",\r\n  \"prix\": \"€20,07\"\r\n}, {\r\n  \"titre\": \"Range Rover\",\r\n  \"description\": \"Pre-emptive zero tolerance success\",\r\n  \"prix\": \"€30,28\"\r\n}, {\r\n  \"titre\": \"X5\",\r\n  \"description\": \"Persistent well-modulated concept\",\r\n  \"prix\": \"€53,91\"\r\n}, {\r\n  \"titre\": \"S8\",\r\n  \"description\": \"Function-based bifurcated frame\",\r\n  \"prix\": \"€7,15\"\r\n}, {\r\n  \"titre\": \"Scirocco\",\r\n  \"description\": \"Intuitive national encryption\",\r\n  \"prix\": \"€132,95\"\r\n}, {\r\n  \"titre\": \"Ram Van 2500\",\r\n  \"description\": \"Integrated motivating alliance\",\r\n  \"prix\": \"€372,51\"\r\n}, {\r\n  \"titre\": \"Gallardo\",\r\n  \"description\": \"Sharable mission-critical Graphic Interface\",\r\n  \"prix\": \"€485,63\"\r\n}, {\r\n  \"titre\": \"RVR\",\r\n  \"description\": \"Function-based fresh-thinking parallelism\",\r\n  \"prix\": \"€46,88\"\r\n}, {\r\n  \"titre\": \"Justy\",\r\n  \"description\": \"Persevering national groupware\",\r\n  \"prix\": \"€482,84\"\r\n}, {\r\n  \"titre\": \"Riviera\",\r\n  \"description\": \"Cloned tertiary encoding\",\r\n  \"prix\": \"€379,29\"\r\n}, {\r\n  \"titre\": \"Town Car\",\r\n  \"description\": \"Distributed needs-based open system\",\r\n  \"prix\": \"€195,05\"\r\n}, {\r\n  \"titre\": \"DeVille\",\r\n  \"description\": \"Ergonomic full-range database\",\r\n  \"prix\": \"€332,56\"\r\n}, {\r\n  \"titre\": \"tC\",\r\n  \"description\": \"Re-engineered well-modulated complexity\",\r\n  \"prix\": \"€48,37\"\r\n}, {\r\n  \"titre\": \"F350\",\r\n  \"description\": \"User-centric local system engine\",\r\n  \"prix\": \"€471,74\"\r\n}, {\r\n  \"titre\": \"Cordia\",\r\n  \"description\": \"Enhanced explicit capacity\",\r\n  \"prix\": \"€104,52\"\r\n}, {\r\n  \"titre\": \"CX-9\",\r\n  \"description\": \"Multi-lateral dedicated flexibility\",\r\n  \"prix\": \"€371,86\"\r\n}, {\r\n  \"titre\": \"MDX\",\r\n  \"description\": \"User-friendly bifurcated collaboration\",\r\n  \"prix\": \"€185,65\"\r\n}, {\r\n  \"titre\": \"Blazer\",\r\n  \"description\": \"Visionary systematic groupware\",\r\n  \"prix\": \"€287,17\"\r\n}, {\r\n  \"titre\": \"Grand Marquis\",\r\n  \"description\": \"Automated 6th generation intranet\",\r\n  \"prix\": \"€347,37\"\r\n}]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/annonces/bulk",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"annonces",
+								"bulk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllAnnonces",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/annonces",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"annonces"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateOneAnnonce",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/annonces",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"annonces"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteAnnonce",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/annonces",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"annonces"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteAllAnnonces",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/annonces/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"annonces",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "GetAllUsers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateUser",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteUser",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
