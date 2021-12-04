@@ -1,11 +1,9 @@
 package com.webuy.backend.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "User")
 public class User {
 
     @Id
@@ -13,6 +11,9 @@ public class User {
     private long id;
     private final String name;
     private final String email;
+
+    @OneToMany
+    private Annonce annonce;
 
 
     public User(String name, String email) {
